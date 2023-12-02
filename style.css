@@ -14,7 +14,7 @@ header{
     position: fixed;
     z-index: 999;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 10px 200px;
 }
@@ -25,6 +25,10 @@ header{
     text-transform:uppercase;
     font-weight:700;
     font-size: 28px;
+}
+
+.logo:hover {
+    color: red;
 }
 
 .navigation a{
@@ -121,7 +125,7 @@ section{
     width: 350px;
     box-shadow: 0 5px 30px;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px
     
 }
@@ -129,3 +133,20 @@ section{
 .card:hover{
     transform: scale(1.1);
 }
+
+.icon {
+    color:#3a6cf4;
+    font-size: 50px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color:#3a6cf4;
+    font-size: 30px;
+    font-weight:500;
+}
+
