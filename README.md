@@ -38,6 +38,9 @@
     min-height: 100vh: --> it mean that element height should atleast that high and it may increase or decrease it depends on the content if needs more room.
  }
 
+.social-icons a {
+   padding-right: 30px --> it make the icons have aspace between each other.
+}
  
 
  
