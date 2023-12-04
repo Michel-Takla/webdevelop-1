@@ -41,7 +41,11 @@
 .social-icons a {
    padding-right: 30px --> it make the icons have aspace between each other.
 }
- 
+
+ .content {
+   flex-direction: row; --> to make the card besides each other.
+
+ }
 
  
  
